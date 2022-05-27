@@ -8,6 +8,7 @@ WebAssembly modules and HTML/JS glue code is provided. The web demo makes use of
 ## Pre requisites
 1. Python 2.7 or above on the local machine and Python executable in Env path.
 2. WebAudio and Wasm supported web-browser (preferrably Edge/Chrome/Firefox)
+3. emsdk setup `https://emscripten.org/docs/getting_started/downloads.html`
 
 ## Steps
 1. Download / Clone contents of this repo to a local directory.
