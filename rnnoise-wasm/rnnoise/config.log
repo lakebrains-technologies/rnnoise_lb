@@ -31,9 +31,11 @@ PATH: /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/bin
 PATH: /home/lb/rnnoise_test/emsdk
 PATH: /home/lb/rnnoise_test/emsdk/upstream/emscripten
 PATH: /home/lb/rnnoise_test/emsdk/node/14.18.2_64bit/bin
-PATH: /home/lb/rnnoise/rnnoise-wasm/rnnoise/emsdk
-PATH: /home/lb/rnnoise/rnnoise-wasm/rnnoise/emsdk/upstream/emscripten
-PATH: /home/lb/rnnoise/rnnoise-wasm/rnnoise/emsdk/node/14.18.2_64bit/bin
+PATH: /home/lb/.nvm/versions/node/v16.14.2/bin
+PATH: /usr/local/cuda-11.2/bin
+PATH: /home/lb/anaconda3/envs/praful/bin
+PATH: /home/lb/anaconda3/condabin
+PATH: /home/lb/.local/bin
 PATH: /usr/local/sbin
 PATH: /usr/local/bin
 PATH: /usr/sbin
@@ -542,7 +544,7 @@ main ()
       void
 3 warnings generated.
 wasm-ld: warning: function signature mismatch: cos
->>> defined as () -> i32 in /tmp/emscripten_temp_ji_nmxml/conftest_0.o
+>>> defined as () -> i32 in /tmp/emscripten_temp_cqprjeur/conftest_0.o
 >>> defined as (f64) -> f64 in /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libc.a(cos.o)
 emcc: warning: running limited binaryen optimizations because DWARF info requested (or indirectly required) [-Wlimited-postlink-optimizations]
 configure:9359: $? = 0
@@ -554,7 +556,7 @@ int main() { return 0; }
         ^
          void
 1 error generated.
-emcc: error: '/home/lb/rnnoise_test/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -DEMSCRIPTEN -D__EMSCRIPTEN_major__=3 -D__EMSCRIPTEN_minor__=1 -D__EMSCRIPTEN_tiny__=12 -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -Werror=implicit-function-declaration -Xclang -iwithsysroot/include/SDL --sysroot=/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -g3 -O2 -pedantic -Wall -Wextra -Wno-sign-compare -Wno-parentheses -Wno-long-long -Werror conftest.c -c -o /tmp/emscripten_temp_e6y9notm/conftest_0.o' failed (returned 1)
+emcc: error: '/home/lb/rnnoise_test/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -DEMSCRIPTEN -D__EMSCRIPTEN_major__=3 -D__EMSCRIPTEN_minor__=1 -D__EMSCRIPTEN_tiny__=12 -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -Werror=implicit-function-declaration -Xclang -iwithsysroot/include/SDL --sysroot=/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -g3 -O2 -pedantic -Wall -Wextra -Wno-sign-compare -Wno-parentheses -Wno-long-long -Werror conftest.c -c -o /tmp/emscripten_temp__ne3l9cm/conftest_0.o' failed (returned 1)
 configure:9397: $? = 1
 configure: failed program was:
 | /* confdefs.h */
@@ -775,7 +777,7 @@ lt_cv_truncate_bin='/usr/bin/dd bs=4096 count=1'
 ## Output variables. ##
 ## ----------------- ##
 
-ACLOCAL='${SHELL} /home/lb/rnnoise_test/rnnoise-wasm/rnnoise/missing aclocal-1.16'
+ACLOCAL='${SHELL} /home/lb/rnnoise_test/rnnoise_lb/rnnoise-wasm/rnnoise/missing aclocal-1.16'
 AMDEPBACKSLASH='\'
 AMDEP_FALSE='#'
 AMDEP_TRUE=''
@@ -785,9 +787,9 @@ AM_DEFAULT_V='$(AM_DEFAULT_VERBOSITY)'
 AM_DEFAULT_VERBOSITY='0'
 AM_V='$(V)'
 AR='/home/lb/rnnoise_test/emsdk/upstream/emscripten/emar'
-AUTOCONF='${SHELL} /home/lb/rnnoise_test/rnnoise-wasm/rnnoise/missing autoconf'
-AUTOHEADER='${SHELL} /home/lb/rnnoise_test/rnnoise-wasm/rnnoise/missing autoheader'
-AUTOMAKE='${SHELL} /home/lb/rnnoise_test/rnnoise-wasm/rnnoise/missing automake-1.16'
+AUTOCONF='${SHELL} /home/lb/rnnoise_test/rnnoise_lb/rnnoise-wasm/rnnoise/missing autoconf'
+AUTOHEADER='${SHELL} /home/lb/rnnoise_test/rnnoise_lb/rnnoise-wasm/rnnoise/missing autoheader'
+AUTOMAKE='${SHELL} /home/lb/rnnoise_test/rnnoise_lb/rnnoise-wasm/rnnoise/missing automake-1.16'
 AWK='mawk'
 CC='/home/lb/rnnoise_test/emsdk/upstream/emscripten/emcc'
 CCDEPMODE='depmode=gcc3'
@@ -828,7 +830,7 @@ LT_SYS_LIBRARY_PATH=''
 MAINT=''
 MAINTAINER_MODE_FALSE='#'
 MAINTAINER_MODE_TRUE=''
-MAKEINFO='${SHELL} /home/lb/rnnoise_test/rnnoise-wasm/rnnoise/missing makeinfo'
+MAKEINFO='${SHELL} /home/lb/rnnoise_test/rnnoise_lb/rnnoise-wasm/rnnoise/missing makeinfo'
 MANIFEST_TOOL=':'
 MKDIR_P='/usr/bin/mkdir -p'
 NM='/home/lb/rnnoise_test/emsdk/upstream/bin/llvm-nm'
@@ -891,7 +893,7 @@ host_vendor='pc'
 htmldir='${docdir}'
 includedir='${prefix}/include'
 infodir='${datarootdir}/info'
-install_sh='${SHELL} /home/lb/rnnoise_test/rnnoise-wasm/rnnoise/install-sh'
+install_sh='${SHELL} /home/lb/rnnoise_test/rnnoise_lb/rnnoise-wasm/rnnoise/install-sh'
 libdir='${exec_prefix}/lib'
 libexecdir='${exec_prefix}/libexec'
 localedir='${datarootdir}/locale'

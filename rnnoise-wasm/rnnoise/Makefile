@@ -250,13 +250,13 @@ distuninstallcheck_listfiles = find . -type f -print
 am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
   | sed 's|^\./|$(prefix)/|' | grep -v '$(infodir)/dir$$'
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} /home/lb/rnnoise_test/rnnoise-wasm/rnnoise/missing aclocal-1.16
+ACLOCAL = ${SHELL} /home/lb/rnnoise_test/rnnoise_lb/rnnoise-wasm/rnnoise/missing aclocal-1.16
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 0
 AR = /home/lb/rnnoise_test/emsdk/upstream/emscripten/emar
-AUTOCONF = ${SHELL} /home/lb/rnnoise_test/rnnoise-wasm/rnnoise/missing autoconf
-AUTOHEADER = ${SHELL} /home/lb/rnnoise_test/rnnoise-wasm/rnnoise/missing autoheader
-AUTOMAKE = ${SHELL} /home/lb/rnnoise_test/rnnoise-wasm/rnnoise/missing automake-1.16
+AUTOCONF = ${SHELL} /home/lb/rnnoise_test/rnnoise_lb/rnnoise-wasm/rnnoise/missing autoconf
+AUTOHEADER = ${SHELL} /home/lb/rnnoise_test/rnnoise_lb/rnnoise-wasm/rnnoise/missing autoheader
+AUTOMAKE = ${SHELL} /home/lb/rnnoise_test/rnnoise_lb/rnnoise-wasm/rnnoise/missing automake-1.16
 AWK = mawk
 CC = /home/lb/rnnoise_test/emsdk/upstream/emscripten/emcc
 CCDEPMODE = depmode=gcc3
@@ -294,7 +294,7 @@ LN_S = ln -s
 LTLIBOBJS = 
 LT_SYS_LIBRARY_PATH = 
 MAINT = 
-MAKEINFO = ${SHELL} /home/lb/rnnoise_test/rnnoise-wasm/rnnoise/missing makeinfo
+MAKEINFO = ${SHELL} /home/lb/rnnoise_test/rnnoise_lb/rnnoise-wasm/rnnoise/missing makeinfo
 MANIFEST_TOOL = :
 MKDIR_P = /usr/bin/mkdir -p
 NM = /home/lb/rnnoise_test/emsdk/upstream/bin/llvm-nm
@@ -320,10 +320,10 @@ SET_MAKE =
 SHELL = /bin/bash
 STRIP = strip
 VERSION = unknown
-abs_builddir = /home/lb/rnnoise_test/rnnoise-wasm/rnnoise
-abs_srcdir = /home/lb/rnnoise_test/rnnoise-wasm/rnnoise
-abs_top_builddir = /home/lb/rnnoise_test/rnnoise-wasm/rnnoise
-abs_top_srcdir = /home/lb/rnnoise_test/rnnoise-wasm/rnnoise
+abs_builddir = /home/lb/rnnoise_test/rnnoise_lb/rnnoise-wasm/rnnoise
+abs_srcdir = /home/lb/rnnoise_test/rnnoise_lb/rnnoise-wasm/rnnoise
+abs_top_builddir = /home/lb/rnnoise_test/rnnoise_lb/rnnoise-wasm/rnnoise
+abs_top_srcdir = /home/lb/rnnoise_test/rnnoise_lb/rnnoise-wasm/rnnoise
 ac_ct_AR = 
 ac_ct_CC = /home/lb/rnnoise_test/emsdk/upstream/emscripten/emcc
 ac_ct_DUMPBIN = 
@@ -352,7 +352,7 @@ host_vendor = pc
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/lb/rnnoise_test/rnnoise-wasm/rnnoise/install-sh
+install_sh = ${SHELL} /home/lb/rnnoise_test/rnnoise_lb/rnnoise-wasm/rnnoise/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -937,9 +937,9 @@ distclean-generic:
 maintainer-clean-generic:
 	@echo "This command is intended for maintainers to use"
 	@echo "it deletes files that may require special tools to rebuild."
-clean-local:
-uninstall-local:
 install-data-local:
+uninstall-local:
+clean-local:
 clean: clean-am
 
 clean-am: clean-generic clean-libLTLIBRARIES clean-libtool clean-local \
