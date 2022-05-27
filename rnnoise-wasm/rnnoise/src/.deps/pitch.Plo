@@ -1,0 +1,55 @@
+src/pitch.lo: src/pitch.c config.h src/pitch.h src/arch.h \
+  src/opus_types.h \
+  /home/lb/rnnoise_test/emsdk/upstream/lib/clang/15.0.0/include/stdint.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  src/common.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  src/celt_lpc.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/math.h
+
+config.h:
+
+src/pitch.h:
+
+src/arch.h:
+
+src/opus_types.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/lib/clang/15.0.0/include/stdint.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h:
+
+src/common.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/features.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/string.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/strings.h:
+
+src/celt_lpc.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/math.h:

@@ -1,0 +1,79 @@
+examples/rnnoise_demo.o: examples/rnnoise_demo.c \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /home/lb/rnnoise_test/emsdk/upstream/lib/clang/15.0.0/include/stddef.h \
+  /home/lb/rnnoise_test/emsdk/upstream/lib/clang/15.0.0/include/__stddef_max_align_t.h \
+  /home/lb/rnnoise_test/emsdk/upstream/lib/clang/15.0.0/include/stdint.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  include/rnnoise.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/emscripten.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/emscripten.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_asm.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_macros.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_types.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_js.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/wget.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/version.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/compat/time.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/time.h
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/lib/clang/15.0.0/include/stddef.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/lib/clang/15.0.0/include/__stddef_max_align_t.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/lib/clang/15.0.0/include/stdint.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/features.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/string.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/strings.h:
+
+include/rnnoise.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/emscripten.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/emscripten.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_asm.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_macros.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_types.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_js.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/wget.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/version.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/compat/time.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/time.h:

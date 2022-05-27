@@ -1,0 +1,39 @@
+src/rnn_data.lo: src/rnn_data.c config.h src/rnn.h include/rnnoise.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /home/lb/rnnoise_test/emsdk/upstream/lib/clang/15.0.0/include/stddef.h \
+  /home/lb/rnnoise_test/emsdk/upstream/lib/clang/15.0.0/include/__stddef_max_align_t.h \
+  /home/lb/rnnoise_test/emsdk/upstream/lib/clang/15.0.0/include/stdint.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  src/opus_types.h src/rnn_data.h
+
+config.h:
+
+src/rnn.h:
+
+include/rnnoise.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/lib/clang/15.0.0/include/stddef.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/lib/clang/15.0.0/include/__stddef_max_align_t.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/lib/clang/15.0.0/include/stdint.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/features.h:
+
+src/opus_types.h:
+
+src/rnn_data.h:

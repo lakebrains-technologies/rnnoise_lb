@@ -1,0 +1,57 @@
+src/rnn_reader.lo: src/rnn_reader.c config.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /home/lb/rnnoise_test/emsdk/upstream/lib/clang/15.0.0/include/stddef.h \
+  /home/lb/rnnoise_test/emsdk/upstream/lib/clang/15.0.0/include/__stddef_max_align_t.h \
+  /home/lb/rnnoise_test/emsdk/upstream/lib/clang/15.0.0/include/stdint.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/endian.h \
+  /home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h \
+  src/rnn.h include/rnnoise.h src/opus_types.h src/rnn_data.h
+
+config.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/lib/clang/15.0.0/include/stddef.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/lib/clang/15.0.0/include/__stddef_max_align_t.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/lib/clang/15.0.0/include/stdint.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/features.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/sys/types.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/endian.h:
+
+/home/lb/rnnoise_test/emsdk/upstream/emscripten/cache/sysroot/include/sys/select.h:
+
+src/rnn.h:
+
+include/rnnoise.h:
+
+src/opus_types.h:
+
+src/rnn_data.h:
