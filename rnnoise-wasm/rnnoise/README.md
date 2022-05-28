@@ -25,6 +25,7 @@ The latest version of the source is available from
 https://gitlab.xiph.org/xiph/rnnoise .  The github repository
 is a convenience copy.
 
-For Dumping `hdf5` model in `c`
+For Dumping "hdf5" model in "c"
+
 ```cd training```
 ```python dump_rnn.py {MODEL_NAME}.hdf5 rnn_data.c rnn_data.txt```
